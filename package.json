@@ -1,0 +1,15 @@
+{
+  "name": "internal-sales-toolkit-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Internal Sales Toolkit - Full Stack Application with Next.js Frontend & FastAPI Backend",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "lint": "npm --prefix frontend run lint",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "dev:backend": "powershell -Command \"cd backend; & python -m uvicorn main:app --port 8000 --host 127.0.0.1 --reload\""
+  }
+}
